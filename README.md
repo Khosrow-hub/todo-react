@@ -71,16 +71,7 @@ Live Demo
 License 
 
 This project is licensed under the MIT License.
-```
 
-How to add it:
-
-1. Create a new file named `README.md` in your project's root folder
-2. Paste this content
-3. Save the file
-4. Then run:
-   
-```
 git add README.md
 git commit -m "Add README file"
 git push
