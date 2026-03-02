@@ -52,7 +52,6 @@ How to Use
 
 Folder Structure 
 
-```
 todo-react/
 ├── src/
 │   ├── assets/         # Images and icons
@@ -63,7 +62,8 @@ todo-react/
 ├── public/             # Public assets
 ├── index.html          # HTML template
 └── package.json        # Dependencies
-```
+
+
 Live Demo 
 
 [View Live Demo](https://github.com/Khosrow-hub/todo-react)
