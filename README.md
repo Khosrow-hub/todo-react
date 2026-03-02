@@ -1,10 +1,10 @@
 
 ```
-Todo List App 
+Todo List App: 
 
 A lightweight and responsive Todo List application built with React that allows users to add, delete, and manage daily tasks with a clean interface.
 
-Features 
+Features:
 
 -  Add new tasks
 -  Delete tasks
@@ -13,13 +13,13 @@ Features
 -  Visual feedback for disabled buttons
 -  Enter key support for quick task addition
 
-echnologies Used 
+،echnologies Used :
 
 - React.js
 - Tailwind CSS
 - Vite
 
- Installation & Setup 
+ Installation & Setup :
 
 1. Clone the repository
 ```
