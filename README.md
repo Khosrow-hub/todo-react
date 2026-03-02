@@ -22,7 +22,7 @@ echnologies Used
  Installation & Setup 
 
 1. Clone the repository
-```bash
+```
 git clone https://github.com/Khosrow-hub/todo-react.git
 ```
 
