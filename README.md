@@ -1,16 +1,87 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+# Todo List App 
 
-Currently, two official plugins are available:
+A lightweight and responsive Todo List application built with React that allows users to add, delete, and manage daily tasks with a clean interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features 
 
-## React Compiler
+- ✅ Add new tasks
+- ✅ Delete tasks
+- ✅ Move tasks up/down to reorder
+- ✅ Clean and responsive UI
+- ✅ Visual feedback for disabled buttons
+- ✅ Enter key support for quick task addition
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used 
 
-## Expanding the ESLint configuration
+- React.js
+- Tailwind CSS
+- Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup 
+
+1. Clone the repository
+```bash
+git clone https://github.com/Khosrow-hub/todo-react.git
+```
+
+2. Navigate to project folder
+```bash
+cd todo-react
+```
+
+3. Install dependencies
+```bash
+npm install
+```
+
+4. Run the app
+```bash
+npm run dev
+```
+
+5. Open [http://localhost:5173](http://localhost:5173) in your browser
+
+## How to Use 📖
+
+- Type a task in the input field and click "Add" or press Enter
+- Use ↑ ↓ buttons to reorder tasks
+- Click the delete icon (🗑️) to remove a task
+- First task cannot move up, last task cannot move down
+
+## Folder Structure 📁
+
+```
+todo-react/
+├── src/
+│   ├── assets/         # Images and icons
+│   ├── TodoList.jsx    # Main component
+│   ├── App.jsx         # App component
+│   ├── main.jsx        # Entry point
+│   └── index.css       # Styles
+├── public/             # Public assets
+├── index.html          # HTML template
+└── package.json        # Dependencies
+```
+
+## Live Demo 
+
+[View Live Demo](https://github.com/Khosrow-hub/todo-react)
+
+## License 
+
+This project is licensed under the MIT License.
+```
+
+## How to add it:
+
+1. Create a new file named `README.md` in your project's root folder
+2. Paste this content
+3. Save the file
+4. Then run:
+```bash
+git add README.md
+git commit -m "Add README file"
+git push
+```
