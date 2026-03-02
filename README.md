@@ -1,25 +1,25 @@
 
 ```
-# Todo List App 
+Todo List App 
 
 A lightweight and responsive Todo List application built with React that allows users to add, delete, and manage daily tasks with a clean interface.
 
-## Features 
+Features 
 
-- ✅ Add new tasks
-- ✅ Delete tasks
-- ✅ Move tasks up/down to reorder
-- ✅ Clean and responsive UI
-- ✅ Visual feedback for disabled buttons
-- ✅ Enter key support for quick task addition
+-  Add new tasks
+-  Delete tasks
+-  Move tasks up/down to reorder
+-  Clean and responsive UI
+-  Visual feedback for disabled buttons
+-  Enter key support for quick task addition
 
-## Technologies Used 
+echnologies Used 
 
 - React.js
 - Tailwind CSS
 - Vite
 
-## Installation & Setup 
+ Installation & Setup 
 
 1. Clone the repository
 ```bash
@@ -27,30 +27,30 @@ git clone https://github.com/Khosrow-hub/todo-react.git
 ```
 
 2. Navigate to project folder
-```bash
+```
 cd todo-react
 ```
 
 3. Install dependencies
-```bash
+```
 npm install
 ```
 
 4. Run the app
-```bash
+```
 npm run dev
 ```
 
 5. Open [http://localhost:5173](http://localhost:5173) in your browser
 
-## How to Use 📖
+How to Use 
 
 - Type a task in the input field and click "Add" or press Enter
 - Use ↑ ↓ buttons to reorder tasks
 - Click the delete icon (🗑️) to remove a task
 - First task cannot move up, last task cannot move down
 
-## Folder Structure 📁
+Folder Structure 
 
 ```
 todo-react/
@@ -64,12 +64,11 @@ todo-react/
 ├── index.html          # HTML template
 └── package.json        # Dependencies
 ```
-
-## Live Demo 
+Live Demo 
 
 [View Live Demo](https://github.com/Khosrow-hub/todo-react)
 
-## License 
+License 
 
 This project is licensed under the MIT License.
 ```
